@@ -1,0 +1,26 @@
+body{
+     background: url(bg-cad2.png) ; 
+    
+}
+fieldset{
+    width: 40%;
+    height: 30%;
+    background: rgba(0, 0, 0, .8);
+}
+label{
+    color: #03a9f4;
+}
+legend{
+    background: #fff;
+    color: black;
+}
+#botao{
+    background: transparent;
+    border:  1px  solid #fff;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}

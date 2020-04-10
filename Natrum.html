@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio</title>
+        <script src="Natrum.js"></script>
+    <link rel="stylesheet" href="styleMenu.css">
+    <script src="https://code.jquery.com/jquery-3.3.0.js"></script>
+    <link rel="stylesheet" href="inicio.css">
+    <script type="text/javascript">
+    //Jquery
+        $(document).ready(function(){
+            $('.togglet').click(function(){
+               $('ul').toggleClass('active');
+            })
+        })
+    </script>
+    <style>
+        body{
+        background: url(bg-hort.jpg);
+       }
+    </style>
+</head>
+<body  >
+    <!--Menu-->
+        <selection>
+                <header>
+                    <a href="#" class="logo"><img id="logo" src="logoN.png"></a>
+                    <a href="#" class="toggle">Menu</a>
+                    <ul class="active">
+                        <li><a href="Natrum.html">Hortifrut</a></li>
+                        <li><a href="frutas.html">Frutas</a></li>
+                        <li><a href="#">Doces Naturais</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                    </ul>
+                </header>
+            </selection>
+            <!-- Produtos  Linha 1-->
+                <br>
+         <center><legend id="leg">Lista de produtos</legend></center> 
+         <br><br>
+         <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img  class="mor" src="maca.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img class="mor"  src="abacate.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">
+                        <span id="contador">0</span> </span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                   <img  class="mor" src="morango.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                   <img  class="mor" src="bg-login.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- Linha 2 -->
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img  class="mor" src="maca.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img class="mor"  src="abacate.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                   <img  class="mor" src="morango.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                   <img  class="mor" src="bg-login.png">
+                </div>
+                <div class="botao">
+                    <button id="mais" onclick="cMais()">Mais</button>
+                    <span class="tela">0</span>
+                    <button id="menos">Menos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+     <!-- Linha 3 -->
+     <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img  class="mor" src="maca.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img class="mor"  src="abacate.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                   <img  class="mor" src="morango.png">
+                </div>
+                <div class="botao">
+                    <button>Mais</button>
+                    <span class="tela">0</span>
+                    <button>Menos</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                   <img  class="mor" src="bg-login.png">
+                </div>
+                <div class="botao">
+                    <button id="mais" onclick="cMais()">Mais</button>
+                    <span class="tela">0</span>
+                    <button id="menos">Menos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Final do site -->
+    <!-- <footer>
+
+    </footer> -->
+</body>
+</html>

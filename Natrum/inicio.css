@@ -1,0 +1,32 @@
+.container{
+    width: 820px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+.card{
+    background: white;
+    width: 200px;
+    height: 225px;
+}
+.botao{
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+    grid-gap: 5px;
+}
+.mor{
+    width: 200px;
+    height: 200px;
+}
+.tela{
+    border: 1px solid black;
+}
+#contador{
+    left: 3px;
+}
+#leg{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}

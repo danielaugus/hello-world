@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cadastro </title>
+        <link rel="stylesheet" href="styleMenu.css">
+        <link rel="stylesheet" href="cadastro.css">
+        <link rel="import" href="cadastro.html">
+        
+    </head>
+    <body >
+            
+        <selection>
+            <header>
+                <a href="#" class="logo"><img id="logo" src="logoN.png"></a>
+                <a href="#" class="toggle">Menu</a>
+                <ul class="active">
+                    <li><a href="Natrum.html">Hortifrut</a></li>
+                    <li><a href="frutas.html">Frutas</a></li>
+                    <li><a href="#">Doces Naturais</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </header>
+        </selection>
+            <br><br>
+            <center>
+        <form method="get" action="Natrum.js">
+
+            <fieldset id="usuario"><legend>Identificação do usuário</legend>
+            <p><label for="cNome"> Nome:</label>
+            <input type="text" name="tNome" id="cNome"  size="20" required="required" placeholder="Nome Completo"/></p>
+
+            <p><label for="cMail">E-mail:</label>
+            <input type="email" name="tMail" id="cMail" required="required"  size="19" /></p>
+
+            <p><label for="2cMail">Confirmar E-mail:</label>
+            <input type="email" name="2tMail" id="2cMail" required="required"  size="19" /></p>
+                
+            <p><label for="cSenha">Senha:</label>
+            <input type="password" name="tSenha" id="cSenah" required="required" size="8" maxlength="10" placeholder="10 digitos"/></p>
+
+            <p><label for="2cSenha">Confirmar Senha:</label>
+            <input  type="password" name="2tSenha" id="2cSenha" required="required" size="8" maxlength="10" placeholder="10 digitos"/></p>
+            
+                </fieldset>
+
+            <br>
+
+            <fieldset id="usuario"><legend>Endereço</legend>
+            <p><label for="cLogradouro"> Logradouro:</label>
+            <input type="text" name="tLogradouro" id="cLogradouro"  size="20"  placeholder="Logradouro"/></p>
+            
+            
+                <p><label>Estado:</label>
+                    <select size="1" name="testado"  required="required"id="cestado">
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AM">AM</option>
+                        <option value="AP">AP</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MG">MG</option>
+                        <option value="MS">MS</option>
+                        <option value="MT">MT</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="PR">PR</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="RS">RS</option>
+                        <option value="SC">SC</option>
+                        <option value="SE">SE</option>
+                        <option value="SP">SP</option>
+                        <option value="TO">TO</option>
+                    </select>
+                </p>
+            
+                <p><label for="ccidade"> Cidade:</label>
+                <input type="text" name="tcidade" id="ccidade" required="required" size="20"  placeholder="cidade"/></p>
+            
+                    <p><label for="cnumero"> Número:</label>
+                <input type="text" name="tnumero" id="cnumero"  size="19" required="required" placeholder="numero"/></p>
+
+                <p><label for="cComplemento"> Complemento:</label>
+                <input type="text" name="tComplemento" id="cComplemento"  size="19"  placeholder="Complemento"/></p>
+                        
+                <p><label for="cCEP"> CEP:</label>
+                <input type="number" name="tCEP" id="cCEP"  size="8" required="required" placeholder="CEP"/></p>
+                <a href="Natrum.html"><button id="botao">Enviar</button></a>
+            </fieldset>
+             
+            </form>
+            
+        </center>
+            <br><br><br>
+    </body>
+</html>
